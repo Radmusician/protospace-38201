@@ -68,4 +68,5 @@ ActiveRecord::Schema.define(version: 2022_10_24_142613) do
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "prototypes", "users"
+ 
 end
